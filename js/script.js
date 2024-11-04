@@ -1,7 +1,7 @@
 function init(){
 //add your javascrip between these two lines of code
   var textEntry=document.getElementById("entryinput");
-  window.alert("Xing Chen: "+textEntry);
-  textoutput.document.write(textEntry);
+  var testEntry="does this work";
+  window.alert("Xing Chen: "+testEntry);
   window.addEventListener("load", init);
 }
